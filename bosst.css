@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 87%;
+    /* padding: 2% 10%; */
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.main{
+    font-family: sans-serif;
+    color: white;
+    background: url('./2022_08_23_03_31_IMG_4071.PNG') no-repeat;
+    background-position: right;
+    background-size: 700px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+.body{
+    font-display: unset;
+    font-size: 45px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     margin-bottom: 30px;
+     width: auto;
+    
+}
+
+ .para{
+    font-size: 50px;
+    margin-bottom: 20px; 
+    font-size: 23px;
+    padding-top: 85px;
+    /* margin-top: 70px; */
+    
+}
+
+.link{
+    font-size: 25px;
+    color: #ffff;
+    padding-top: 85px;
+    margin-top: 100px;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-size-adjust: 20px;
+    color: #ffff;
+    /* margin: 10px;
+    padding: 10px; */
+    align-items: center;
+}
+li{
+    padding: 10px;
+}
+img{
+
+}
+
